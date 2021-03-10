@@ -34,24 +34,21 @@ Check the demo notebook ([TODO nbviewer](), [TODO google colab]()) for examples 
 
 <br>
 
-**animate.folder()**
+### Functions
 
+##### 1) animate.folder()
 The first function is pretty straightfoward. Just give a folder (string or pathlib object) and it will search for image files, sort them and a display the animation.
 
 By default it only looks for 'jpg' and 'png', but it can be changed with the **file_extensions** parameter, which is a list of strings. The search is based on glob, which is case sensitive, so by default it won't look for 'PNG' or 'jpeg'. Anything pillow opens will probably work.
 
-<br>
 
-**animate.file_list()** <br>
-**animate.pillow_list()**
-
+##### 2) animate.file_list() and 3) animate.pillow_list()
 The second and third function are almost the same as the first, but you give the list of image files or pillow image objects you want to display as animation.
 
 The **file_extensions** parameter is also present for the list of image files and the function will ignore files with other extensions.
 
-<br>
 
-**animate.array_list()**
+##### 4) animate.array_list()
 
 The forth function is little bit different, as it doesn't involve files. Instead the input is list of numpy arrays. It is useful to work with scikit-image and opencv.
 
@@ -59,11 +56,9 @@ As opencv use the BGR channel order instead of RGB, there is the flag **BGR** wh
 
 Each frame array conversion is done by PIL.Image.fromarray() function, which has the parameter **mode** to control the frame array format. This parameter is also present here and by default is set to None. If necessary see [pillow docs](https://pillow.readthedocs.io/en/stable/handbook/concepts.html#concept-modes) for more details.
 
-<br>
+##### 5) animate.array_4d()
 
-**animate.array_4d()**
-
-The last function is just a 4D array. It is useful when working some neural networks.
+The fifth and last function is just a 4D array. It is useful when working some neural networks.
 
 By default it assumes the first 4D arrays dimension order are Time, Height, Width and Color Channel, but if working with different order you can inform the function and it will interpret the data accordingly.
 
@@ -71,4 +66,5 @@ Both the **BGR** and **mode** parameters (see above) are also available here.
 
 <br>
 
-**NOTE:** By default all the five functions limits the number of frames and the animation resolution because the main goal of the library is for quick previews. However the limitations can be bypassed setting the respective parameters (**max_height** and **max_frames**) to None.
+#### Note:
+By default all the five functions limits the number of frames and the animation resolution because the main goal of the library is for quick previews. However the limitations can be bypassed setting the respective parameters (**max_height** and **max_frames**) to None.
