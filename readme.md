@@ -3,8 +3,8 @@
 **VIAJEN** (**V**iew **I**mages as **A**nimation in **J**upyter and **E**quivalent **N**otebooks) is small library with few dependencies designed to preview video data on Jupyter Notebooks, Google Colab and Kaggle Notebooks.
 <p align="center">
   <br>
-  <img src="www">
-  <br>(TODO: animation showing folder function)
+  <img src="https://github.com/brunomsantiago/viajen/raw/master/docs/animate_folder.gif">
+  <br>
 </p>
 It is specially useful when working with small clips, processing them frame by frame.
 I created it to help me test video inpainting techniques, but it may be useful for other applications.
