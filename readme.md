@@ -14,7 +14,7 @@ Ultimately the animations are virtual (io.BytesIO) gif files  created by pillow 
 
 It has just five public functions, which can be explored by jupyter auto-completion.
 
-<p align="center" style="font-size:13px">
+<p align="center" style="font-size:12px">
   <br>
   <img src="https://github.com/brunomsantiago/viajen/raw/master/docs/autocompletion.gif">
   <br>
