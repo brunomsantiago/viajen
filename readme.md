@@ -48,7 +48,7 @@ The **file_extensions** parameter is also present for the list of image files an
 
 The forth function is little bit different, as it doesn't involve files. Instead the input is list of numpy arrays. It is useful to work with scikit-image and opencv.
 
-As opencv use the BGR channel order instead of RGB, there the flag **BGR** which by default is false and need to be set display opencv frames colors correctly.
+As opencv use the BGR channel order instead of RGB, there is the flag **BGR** which by default is *False* and need to be set display opencv frames colors correctly.
 
 Each frame array conversion is done by PIL.Image.fromarray() function, which has the parameter **mode** to control the frame array format. This parameter is also present here and by default is set to None. If necessary see [pillow docs](https://pillow.readthedocs.io/en/stable/handbook/concepts.html#concept-modes) for more details.
 
