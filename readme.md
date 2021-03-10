@@ -12,6 +12,14 @@ I created it to help me test video inpainting techniques, but it may be useful f
 
 Ultimately the animations are virtual (io.BytesIO) gif files  created by pillow (PIL.Image) and displayed by Ipython (IPython.display.Image). Some animations also need numpy (np.moveaxis, np.split, np.squeeze) to be created.
 
+## How to install
+
+Just use pip
+
+```
+pip install viajen
+```
+
 ## How to use
 
 It has just five public functions, which can be explored by jupyter auto-completion.
@@ -34,8 +42,7 @@ By default it only looks for 'jpg' and 'png', but it can be changed with the **f
 
 <br>
 
-**animate.file_list()**
-
+**animate.file_list()** <br>
 **animate.pillow_list()**
 
 The second and third function are almost the same as the first, but you give the list of image files or pillow image objects you want to display as animation.
