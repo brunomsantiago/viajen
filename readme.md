@@ -1,11 +1,13 @@
 # viajen
 
 **viajen** (**V**iew **I**mages as **A**nimation in **J**upyter and **E**quivalent **N**otebooks) is small library with few dependencies designed to preview video data on Jupyter Notebooks, Google Colab and Kaggle Notebooks.
+
 <p align="center">
   <br>
   <img src="https://github.com/brunomsantiago/viajen/raw/master/docs/animate_folder.gif">
   <br>
 </p>
+
 It is specially useful when working with small clips, processing them frame by frame.
 
 I created it to help me test video inpainting techniques, but it may be useful for other applications.
@@ -30,7 +32,7 @@ It has just five public functions, which can be explored by jupyter auto-complet
   <br>
 </p>
 
-Check the demo notebook ([TODO nbviewer](), [TODO google colab]()) for examples of each one these functions.
+Check the demo notebook ([nbviewer preview](https://nbviewer.jupyter.org/github/brunomsantiago/viajen/blob/master/demo/local_demo.ipynb), [TODO google colab]()) for examples of each one these functions.
 
 
 ### Functions
