@@ -1,6 +1,6 @@
 # VIAJEN
 
-**VIAJEN** (**V**iew **I**mages as **A**nimation in **J**upyter and **E**quivalent **N**otebooks) is small library with few dependencies designed to preview video data on Jupyter Notebooks, Google Colab and Kaggle.
+**VIAJEN** (**V**iew **I**mages as **A**nimation in **J**upyter and **E**quivalent **N**otebooks) is small library with few dependencies designed to preview video data on Jupyter Notebooks, Google Colab and Kaggle Notebooks.
 
 <p align="center">
   <br>
@@ -12,7 +12,7 @@ It is specially useful when working with small clips, processing them frame by f
 
 I created it to help me test video inpainting techniques, but it may be useful for other applications.
 
-It depends on pillow (PIL.Image), IPython (IPython.display.Image) and numpy (np.moveaxis, np.split, np.squeeze)
+Ultimately the animations are virtual (io.BytesIO) gif files  created by pillow (PIL.Image) and displayed by Ipython (IPython.display.Image). Some animations also need numpy (np.moveaxis, np.split, np.squeeze) to be created.
 
 ## How to use
 
