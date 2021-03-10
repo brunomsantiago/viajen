@@ -51,4 +51,4 @@ Both the **BGR** and **mode** parameters (see above) are also available here.
 
 <br>
 
-**NOTE:** By default all the five functions limits the number of frames and the animation resolution because the main goal of the library is for quick previews. However the limitations can be bypassed setting the respective parameters to None.
+**NOTE:** By default all the five functions limits the number of frames and the animation resolution because the main goal of the library is for quick previews. However the limitations can be bypassed setting the respective parameters (**max_height** and **max_frames**) to None.
