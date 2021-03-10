@@ -32,7 +32,7 @@ It has just five public functions, which can be explored by jupyter auto-complet
   <br>
 </p>
 
-Check the demo notebook ([nbviewer preview](https://nbviewer.jupyter.org/github/brunomsantiago/viajen/blob/master/demo/local_demo.ipynb), [TODO google colab]()) for examples of each one these functions.
+Check the demo notebook ([nbviewer preview](https://nbviewer.jupyter.org/github/brunomsantiago/viajen/blob/master/demo/local_demo.ipynb), [google colab playground](https://colab.research.google.com/github/brunomsantiago/viajen/blob/master/demo/colab_demo.ipynb)) for examples of each one these functions.
 
 
 ### Functions
