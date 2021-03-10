@@ -32,7 +32,6 @@ It has just five public functions, which can be explored by jupyter auto-complet
 
 Check the demo notebook ([TODO nbviewer](), [TODO google colab]()) for examples of each one these functions.
 
-<br>
 
 ### Functions
 
