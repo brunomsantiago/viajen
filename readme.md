@@ -14,10 +14,11 @@ Ultimately the animations are virtual (io.BytesIO) gif files  created by pillow 
 
 It has just five public functions, which can be explored by jupyter auto-completion.
 
-<p align="center">
+<p align="center" style="font-size:13px">
   <br>
-  <img src="www">
-  <br>(TODO: animation showing how to find the content)
+  <img src="https://github.com/brunomsantiago/viajen/raw/master/docs/autocompletion.gif">
+  <br>
+    <b>Auto-completion showing the 5 functions</b>
 </p>
 
 Check the demo notebook ([TODO nbviewer](), [TODO google colab]()) for examples of each one these functions.
