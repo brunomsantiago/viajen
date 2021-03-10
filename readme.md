@@ -1,6 +1,6 @@
 # VIAJEN
 
-**VIAJEN** (**V**iew **I**mages as **A**nimation in **J**upyter and **E**quivalent **N**otebooks) is small library with few dependencies designed to preview video data on Jupyter Notebooks, Google Colab and Kagle.
+**VIAJEN** (**V**iew **I**mages as **A**nimation in **J**upyter and **E**quivalent **N**otebooks) is small library with few dependencies designed to preview video data on Jupyter Notebooks, Google Colab and Kaggle.
 
 <p align="center">
   <br>
