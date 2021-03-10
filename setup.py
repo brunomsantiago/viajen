@@ -5,7 +5,6 @@ setup(name='viajen',
       description=('View Images as Animation in Jupyter and Equivalent'
                    ' Notebooks'),
       url='https://github.com/brunomsantiago/viajen',
-      author='Bruno Santiago',
       license='MIT',
       python_requires='>=3.6.0',
       packages=['viajen'])
