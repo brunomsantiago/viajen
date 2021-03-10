@@ -6,7 +6,7 @@ from IPython.display import Image as _display_image
 from PIL import Image as _Image
 
 # Project imports
-import utils as _utils
+from viajen import utils as _utils
 
 _default = {}
 _default['max_height'] = 300
